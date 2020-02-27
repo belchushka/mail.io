@@ -508,7 +508,7 @@ let vue = new Vue({
     methods:{
         read_email(data){
             if(this.$refs.read_modal.classList.contains("active")){
-             
+
                 this.$refs.read_modal.classList.remove("active")
 
             }else{
